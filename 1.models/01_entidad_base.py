@@ -6,8 +6,9 @@ class EntidadBase:
 
 # se define la clase hija que hereda de EntidadBase, con un atributo adicional customer
 class Customer(EntidadBase):
-    def __init__(self, id_system, name, email, phone):
+    def __init__(self, id_system, name, email, phone, address):
         super().__init__(id_system)
         self.name = name
         self.email = email
         self.phone = phone
+        self.address = address
