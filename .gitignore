@@ -1,0 +1,6 @@
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Logs generados localmente
+utils/system_logs.txt
